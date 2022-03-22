@@ -1268,5 +1268,57 @@
       "beban": "dasd",
       "pendapatan": "asdasd"
     }
+  ],
+  "progress": [
+    {
+      "id": 1,
+      "name": "identitas",
+      "status": "done"
+    },
+    {
+      "id": 2,
+      "name": "pengurus",
+      "status": "done"
+    },
+    {
+      "id": 3,
+      "name": "pengawas",
+      "status": "done"
+    },
+    {
+      "id": 4,
+      "name": "anggota",
+      "status": "done"
+    },
+    {
+      "id": 5,
+      "name": "unit usaha",
+      "status": "done"
+    },
+    {
+      "id": 6,
+      "name": "kantor cabang",
+      "status": "progress"
+    },
+    {
+      "id": 7,
+      "name": "auditor",
+      "status": "draft"
+    },
+    {
+      "id": 8,
+      "name": "keuangan",
+      "status": "draft"
+    },
+    {
+      "id": 9,
+      "name": "laba rugi",
+      "status": "draft"
+    },
+    {
+      "id": 10,
+      "name": "selesai",
+      "status": "none"
+    }
   ]
 }
