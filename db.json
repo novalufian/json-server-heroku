@@ -5,8 +5,8 @@
       "id": 2,
       "first_name": "Lucy",
       "last_name": "Ballmer",
-      "email": "admin2@gmail.com",
-      "passowrd": "admin2",
+      "email": "admin@gmail.com",
+      "passowrd": "admin",
       "role": 0
     },
     {
@@ -42,58 +42,142 @@
       "role": 1
     }
   ],
-  "news": [
-    {
-      "id_berita": "d6b11496-d86e-4c9f-b14b-7f0f2341ef1f",
-      "judul_berita": "Zone, The (La Zona)",
-      "created_at": "1618099254000"
-    },
-    {
-      "id_berita": "1e0d70ac-3088-4438-948b-797e74bf742b",
-      "judul_berita": "Abols Upe",
-      "created_at": "1637196441000"
-    },
-    {
-      "id_berita": "c57b3cca-edd1-404b-b905-931d31e7029c",
-      "judul_berita": "Hand, The (Ruka)",
-      "created_at": "1642014227000"
-    },
-    {
-      "id_berita": "be5faf89-0212-47a9-9703-5d2a1c4a9973",
-      "judul_berita": "Game Change",
-      "created_at": "1612490833000"
-    },
-    {
-      "id_berita": "cbb13283-b8cc-46ff-8151-5e6474b3bf71",
-      "judul_berita": "Bomb It",
-      "created_at": "1619090751000"
-    },
-    {
-      "id_berita": "2dd829d2-00ea-42f9-a5e9-83ec7b1a1ae4",
-      "judul_berita": "What Would Jesus Buy?",
-      "created_at": "1624595025000"
-    },
-    {
-      "id_berita": "d87d852c-4ae0-4e3c-b007-e9d19a903d99",
-      "judul_berita": "1981",
-      "created_at": "1631992676000"
-    },
-    {
-      "id_berita": "dc66b087-209f-44c5-84eb-fe2c665fb9e8",
-      "judul_berita": "Nowhere",
-      "created_at": "1632274178000"
-    },
-    {
-      "id_berita": "57927347-f3a2-4b9c-a090-3fcba575803c",
-      "judul_berita": "Swell Season, The",
-      "created_at": "1617522152000"
-    },
-    {
-      "id_berita": "7e249027-d056-41be-93ae-9ec53bad5aa6",
-      "judul_berita": "Violet & Daisy",
-      "created_at": "1634910888000"
-    }
-  ],
+  "news": [{
+    "id": "728448a8-b8ec-49db-8ecc-20a399a76737",
+    "judul_berita": "The Love Letter",
+    "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+    "tumb_big": "http://dummyimage.com/972x720.png/5fa2dd/ffffff",
+    "tumb_small": "http://dummyimage.com/300x300.png/ff4444/ffffff",
+    "atachment": null,
+    "label": "umum",
+    "created_at": "20-Jan-2021"
+  }, {
+    "id": "1c4cfd0e-72fd-4165-a739-bf955a2c5c09",
+    "judul_berita": "Perfume: The Story of a Murderer",
+    "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+    "tumb_big": "http://dummyimage.com/972x720.png/cc0000/ffffff",
+    "tumb_small": "http://dummyimage.com/300x300.png/dddddd/000000",
+    "atachment": null,
+    "label": "penting",
+    "created_at": "16-Sep-2021"
+  }, {
+    "id": "1fbd9aca-e451-4ba5-a576-3d6a8bccefd0",
+    "judul_berita": "My Flesh My Blood (Moja krew)",
+    "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+    "tumb_big": "http://dummyimage.com/972x720.png/dddddd/000000",
+    "tumb_small": "http://dummyimage.com/300x300.png/cc0000/ffffff",
+    "atachment": 2,
+    "label": "pengumuman",
+    "created_at": "01-Dec-2021"
+  }, {
+    "id": "2617b227-8101-418f-bea0-668bc978e13a",
+    "judul_berita": "Born on the Fourth of July",
+    "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+    "tumb_big": "http://dummyimage.com/972x720.png/dddddd/000000",
+    "tumb_small": "http://dummyimage.com/300x300.png/ff4444/ffffff",
+    "atachment": 3,
+    "label": "pengumuman",
+    "created_at": "13-May-2021"
+  }, {
+    "id": "f0ef147a-dc91-4635-8c2d-ee42c42ca90a",
+    "judul_berita": "Divorce American Style",
+    "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+    "tumb_big": "http://dummyimage.com/972x720.png/ff4444/ffffff",
+    "tumb_small": "http://dummyimage.com/300x300.png/5fa2dd/ffffff",
+    "atachment": 2,
+    "label": "penting",
+    "created_at": "24-Jun-2021"
+  }, {
+    "id": "35f86d9d-44b6-4de4-a87d-1b6ef677d644",
+    "judul_berita": "Lay the Favorite",
+    "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+    "tumb_big": "http://dummyimage.com/972x720.png/cc0000/ffffff",
+    "tumb_small": "http://dummyimage.com/300x300.png/cc0000/ffffff",
+    "atachment": 4,
+    "label": "penting",
+    "created_at": "19-Jan-2022"
+  }, {
+    "id": "cec727ff-5150-43a1-b50e-0bf4e95b6a1f",
+    "judul_berita": "World's Greatest Lover, The",
+    "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+    "tumb_big": "http://dummyimage.com/972x720.png/cc0000/ffffff",
+    "tumb_small": "http://dummyimage.com/300x300.png/ff4444/ffffff",
+    "atachment": null,
+    "label": "umum",
+    "created_at": "11-Feb-2022"
+  }, {
+    "id": "40f485bf-a7dc-4bad-9912-b3181352ccec",
+    "judul_berita": "Grapes of Death, The (Raisins de la mort, Les)",
+    "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+    "tumb_big": "http://dummyimage.com/972x720.png/5fa2dd/ffffff",
+    "tumb_small": "http://dummyimage.com/300x300.png/5fa2dd/ffffff",
+    "atachment": null,
+    "label": "penting",
+    "created_at": "07-Jul-2021"
+  }, {
+    "id": "3005e018-d19e-4f33-86c1-32da79e03695",
+    "judul_berita": "Herbie: Fully Loaded",
+    "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+    "tumb_big": "http://dummyimage.com/972x720.png/5fa2dd/ffffff",
+    "tumb_small": "http://dummyimage.com/300x300.png/dddddd/000000",
+    "atachment": null,
+    "label": "umum",
+    "created_at": "08-Feb-2022"
+  }, {
+    "id": "af9be750-ac0a-43bf-8bb4-c58b0b90586b",
+    "judul_berita": "Swindle, The (Bidone, Il)",
+    "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+    "tumb_big": "http://dummyimage.com/972x720.png/ff4444/ffffff",
+    "tumb_small": "http://dummyimage.com/300x300.png/5fa2dd/ffffff",
+    "atachment": null,
+    "label": "pengumuman",
+    "created_at": "28-Aug-2021"
+  }, {
+    "id": "cad1d2e0-a197-4333-9287-4119986753e1",
+    "judul_berita": "Blind Husbands",
+    "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+    "tumb_big": "http://dummyimage.com/972x720.png/ff4444/ffffff",
+    "tumb_small": "http://dummyimage.com/300x300.png/cc0000/ffffff",
+    "atachment": null,
+    "label": "pengumuman",
+    "created_at": "03-Apr-2021"
+  }, {
+    "id": "954da606-c6ed-4cd3-bfa9-8c7ad88b40f9",
+    "judul_berita": "Dark of the Sun",
+    "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+    "tumb_big": "http://dummyimage.com/972x720.png/cc0000/ffffff",
+    "tumb_small": "http://dummyimage.com/300x300.png/dddddd/000000",
+    "atachment": null,
+    "label": "penting",
+    "created_at": "14-Jul-2021"
+  }, {
+    "id": "fa0b3fbb-27ac-4337-b66e-215af7787e2d",
+    "judul_berita": "Chad Hanna",
+    "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+    "tumb_big": "http://dummyimage.com/972x720.png/5fa2dd/ffffff",
+    "tumb_small": "http://dummyimage.com/300x300.png/5fa2dd/ffffff",
+    "atachment": null,
+    "label": "penting",
+    "created_at": "30-Apr-2021"
+  }, {
+    "id": "c24d1472-e61c-4d33-a419-3f4052f894d7",
+    "judul_berita": "Apostle Peter and The Last Supper",
+    "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+    "tumb_big": "http://dummyimage.com/972x720.png/5fa2dd/ffffff",
+    "tumb_small": "http://dummyimage.com/300x300.png/dddddd/000000",
+    "atachment": 4,
+    "label": "penting",
+    "created_at": "18-Jul-2021"
+  }, {
+    "id": "57715e6d-4506-4356-b37a-315b1f61d5eb",
+    "judul_berita": "Jane Eyre",
+    "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+    "tumb_big": "http://dummyimage.com/972x720.png/5fa2dd/ffffff",
+    "tumb_small": "http://dummyimage.com/300x300.png/cc0000/ffffff",
+    "atachment": null,
+    "label": "penting",
+    "created_at": "11-Nov-2021"
+  }],
   "koperasi": [
     {
       "id": 1,
@@ -159,7 +243,7 @@
       "status_koperasi": "aktif",
       "kesehatan_koperasi": "dalam pengawasan khusus",
       "pelaporan": "done",
-      "koperasi_created_at": "1626863202000"
+      "koperasi_created_at": "1626863201900"
     },
     {
       "id": 2,
@@ -1808,8 +1892,96 @@
         }
       ],
       "statistik" : [900, 600]
-
-      
+    }
+  ],
+  "rat" : [
+    {
+      "id" : 2312377681,
+      "tahun" : 2021,
+      "data" : {
+        "rat-dokumen-rapat" : {
+          "fileName" : "Dokumen RAT tahun 2021.pdf",
+          "fileSize" : "1.4Mb",
+          "downLink" : "?download=true&file=98098098089080",
+          "note" : "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+        },
+        "rat-pertanggung-jawaban" : {
+          "fileName" : "Dokumen Laporan Pertanggung Jawaban Tahun 2021.pdf",
+          "fileSize" : "5.7Mb",
+          "downLink" : "?download=true&file=98098098089080",
+          "note" : "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+        },
+        "rat-rencana-kerja" : {
+          "fileName" : "Dokumen Laporan Rencan Kerjaan Tahun 2021.pdf",
+          "fileSize" : "13.5Mb",
+          "downLink" : "?download=true&file=98098098089080",
+          "note" : "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+        },
+        "rat-pendukung" : {
+          "fileName" : "Dokumen PENDUKUNG RAT Tahun 2021.pdf",
+          "fileSize" : "14.1Mb",
+          "downLink" : "?download=true&file=98098098089080",
+          "note" : "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+        }
+      }
+    },{
+      "id" : 465447,
+      "tahun" : 2020,
+      "data" : {
+        "rat-dokumen-rapat" : {
+          "fileName" : "Dokumen RAT tahun 2020.pdf",
+          "fileSize" : "4.4Mb",
+          "downLink" : "?download=true&file=98098098089080",
+          "note" : "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+        },
+        "rat-pertanggung-jawaban" : {
+          "fileName" : "Dokumen Laporan Pertanggung Jawaban Tahun 2020.pdf",
+          "fileSize" : "1.7Mb",
+          "downLink" : "?download=true&file=98098098089080",
+          "note" : "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+        },
+        "rat-rencana-kerja" : {
+          "fileName" : "Dokumen Laporan Rencan Kerjaan Tahun 2020.pdf",
+          "fileSize" : "8.5Mb",
+          "downLink" : "?download=true&file=98098098089080",
+          "note" : "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+        },
+        "rat-pendukung" : {
+          "fileName" : "Dokumen PENDUKUNG RAT Tahun 2020.pdf",
+          "fileSize" : "14.1Mb",
+          "downLink" : "?download=true&file=98098098089080",
+          "note" : "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+        }
+      }
+    },{
+      "id" : 989080,
+      "tahun" : 2019,
+      "data" : {
+        "rat-dokumen-rapat" : {
+          "fileName" : "Dokumen RAT tahun 2019.pdf",
+          "fileSize" : "8.56Mb",
+          "downLink" : "?download=true&file=98098098089080",
+          "note" : "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+        },
+        "rat-pertanggung-jawaban" : {
+          "fileName" : "Dokumen Laporan Pertanggung Jawaban Tahun 2019.pdf",
+          "fileSize" : "1.8Mb",
+          "downLink" : "?download=true&file=98098098089080",
+          "note" : "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+        },
+        "rat-rencana-kerja" : {
+          "fileName" : "Dokumen Laporan Rencan Kerjaan Tahun 2019.pdf",
+          "fileSize" : "99.5Mb",
+          "downLink" : "?download=true&file=98098098089080",
+          "note" : "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+        },
+        "rat-pendukung" : {
+          "fileName" : "Dokumen PENDUKUNG RAT Tahun 2019.pdf",
+          "fileSize" : "140.1Mb",
+          "downLink" : "?download=true&file=98098098089080",
+          "note" : "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+        }
+      }
     }
   ]
 }
