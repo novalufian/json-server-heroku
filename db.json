@@ -180,24 +180,7 @@
   }],
   "koperasi": [
     {
-      "id": 1,
-      "avatar": "https://robohash.org/fugiatconsequaturdignissimos.png?size=150x150&set=set1",
-      "nama": "Clemmy Bachman okeee",
-      "nik_pegawai": 7834409210,
-      "jabatan": "Services",
-      "no_telp": "+62 239 953 6279",
-      "jenik_kelamin": null,
-      "id_petugas": "3fe74482-fdcd-4c4f-9a51-9464e5cb4c56",
-      "email": "cbachman0@freewebs.com",
-      "username": "cbachman0",
-      "jenis_kelamin": "M",
-      "nama_koperasi": "McKenzie-McCullough",
-      "status_login": false,
-      "created_at": "1631666036000"
-    },
-    {
-      "id": 2,
-      "koperasi_id": "2ecda49a-937a-4379-b583-188a41adccd4",
+      "id": "2ecda49a-937a-4379-b583-188a41adccd4",
       "avatar": "https://robohash.org/aofficiisiusto.png?size=250x250&set=set1",
       "nama_koperasi": "Sporer Inc",
       "no_telpeon_koperasi": "850-965-9968",
@@ -223,8 +206,7 @@
       "koperasi_created_at": "1620342874000"
     },
     {
-      "id": 2,
-      "koperasi_id": "1f5ac31d-83b9-4996-9560-75355f2cf2c7",
+      "id": "1f5ac31d-83b9-4996-9560-75355f2cf2c7",
       "nama_koperasi": "Gulgowski and Sons",
       "avatar": "https://robohash.org/utvitaesunt.png?size=250x250&set=set1",
       "bentuk_koperasi": "primer",
@@ -241,13 +223,12 @@
       "koperasi_kabupaten": "Kab. Blitar",
       "lat_lang_koperasi": 125.9369952,
       "status_koperasi": "aktif",
-      "kesehatan_koperasi": "dalam pengawasan khusus",
+      "kesehatan_koperasi": "tidak sehat",
       "pelaporan": "done",
       "koperasi_created_at": "1626863201900"
     },
     {
-      "id": 2,
-      "koperasi_id": "2ecda49a-937a-4379-b583-188a41adccd4",
+      "id": "2ecda49a-937a-4379-b583-188a41adccd4",
       "nama_koperasi": "Sporer Inc",
       "avatar": "https://robohash.org/aofficiisiusto.png?size=250x250&set=set1",
       "bentuk_koperasi": "primer",
@@ -269,8 +250,7 @@
       "koperasi_created_at": "1620342874000"
     },
     {
-      "id": 3,
-      "koperasi_id": "ba9eae89-e8ce-40ca-9939-35feec5070c2",
+      "id": "ba9eae89-e8ce-40ca-9939-35feec5070c2",
       "nama_koperasi": "Schaden Inc",
       "avatar": "https://robohash.org/voluptasiureconsequatur.png?size=250x250&set=set1",
       "bentuk_koperasi": "skunder",
@@ -292,8 +272,7 @@
       "koperasi_created_at": "1623848578000"
     },
     {
-      "id": 4,
-      "koperasi_id": "cb462126-7d52-4d60-a851-51c9a17bd1f2",
+      "id": "cb462126-7d52-4d60-a851-51c9a17bd1f2",
       "nama_koperasi": "Jerde-Kovacek",
       "avatar": "https://robohash.org/voluptassuscipitconsequatur.png?size=250x250&set=set1",
       "bentuk_koperasi": "skunder",
@@ -315,8 +294,7 @@
       "koperasi_created_at": "1623920713000"
     },
     {
-      "id": 5,
-      "koperasi_id": "af22cea1-6ef5-467f-8c87-5dd282e9f8d9",
+      "id": "af22cea1-6ef5-467f-8c87-5dd282e9f8d9",
       "nama_koperasi": "Leffler-Kerluke",
       "avatar": "https://robohash.org/utcupiditateut.png?size=250x250&set=set1",
       "bentuk_koperasi": "skunder",
@@ -338,8 +316,7 @@
       "koperasi_created_at": "1623034390000"
     },
     {
-      "id": 6,
-      "koperasi_id": "45645c00-9e98-49b3-a5f7-b84eb687c89b",
+      "id": "45645c00-9e98-49b3-a5f7-b84eb687c89b",
       "nama_koperasi": "Raynor-Collins",
       "avatar": "https://robohash.org/quosinventorenumquam.png?size=250x250&set=set1",
       "bentuk_koperasi": "primer",
@@ -356,13 +333,12 @@
       "koperasi_kabupaten": "Kab. Blitar",
       "lat_lang_koperasi": 115.1592718,
       "status_koperasi": "aktif",
-      "kesehatan_koperasi": "dalam pengawasan",
+      "kesehatan_koperasi": "tidak sehat",
       "pelaporan": "pending",
       "koperasi_created_at": "1631274527000"
     },
     {
-      "id": 7,
-      "koperasi_id": "2840be40-54e1-430b-a8ed-fb8cb1058c3b",
+      "id": "2840be40-54e1-430b-a8ed-fb8cb1058c3b",
       "nama_koperasi": "Mosciski, Kunde and Hoppe",
       "avatar": "https://robohash.org/dictapraesentiumest.png?size=250x250&set=set1",
       "bentuk_koperasi": "primer",
@@ -378,14 +354,13 @@
       "koperasi_kecamatan": "Kanigoro",
       "koperasi_kabupaten": "Kab. Blitar",
       "lat_lang_koperasi": 26.6291023,
-      "status_koperasi": "tidak aktif",
-      "kesehatan_koperasi": "dalam pengawasan khusus",
+      "status_koperasi": "aktif",
+      "kesehatan_koperasi": "kurang sehat",
       "pelaporan": "failed",
       "koperasi_created_at": "1640353378000"
     },
     {
-      "id": 8,
-      "koperasi_id": "9feba061-2d3b-45a0-8a43-2ced7be8864e",
+      "id": "9feba061-2d3b-45a0-8a43-2ced7be8864e",
       "nama_koperasi": "Wehner, Fisher and Medhurst",
       "avatar": "https://robohash.org/quivoluptatesqui.png?size=250x250&set=set1",
       "bentuk_koperasi": "primer",
@@ -401,14 +376,13 @@
       "koperasi_kecamatan": "Wonodadi",
       "koperasi_kabupaten": "Kab. Blitar",
       "lat_lang_koperasi": 121.819,
-      "status_koperasi": "tidak aktif",
+      "status_koperasi": "aktif",
       "kesehatan_koperasi": "cukup sehat",
       "pelaporan": "pending",
       "koperasi_created_at": "1644935380000"
     },
     {
-      "id": 9,
-      "koperasi_id": "ee68b59c-6632-479a-8bb8-da05dc18e87c",
+      "id": "ee68b59c-6632-479a-8bb8-da05dc18e87c",
       "nama_koperasi": "Kiehn-Bruen",
       "avatar": "https://robohash.org/aliquiddictarepellat.png?size=250x250&set=set1",
       "bentuk_koperasi": "primer",
@@ -425,13 +399,12 @@
       "koperasi_kabupaten": "Kab. Blitar",
       "lat_lang_koperasi": 174.0890941,
       "status_koperasi": "aktif",
-      "kesehatan_koperasi": "dalam pengawasan khusus",
+      "kesehatan_koperasi": "kurang sehat",
       "pelaporan": "failed",
       "koperasi_created_at": "1637228074000"
     },
     {
-      "id": 10,
-      "koperasi_id": "c81e6a4f-0e17-401f-8d1c-4eda80b26375",
+      "id": "c81e6a4f-0e17-401f-8d1c-4eda80b26375",
       "nama_koperasi": "Buckridge, Emard and Bauch",
       "avatar": "https://robohash.org/facerenullaut.png?size=250x250&set=set1",
       "bentuk_koperasi": "skunder",
@@ -453,8 +426,7 @@
       "koperasi_created_at": "1627684445000"
     },
     {
-      "id": 11,
-      "koperasi_id": "11f995c0-46ea-48a8-8d1b-33b0bd530c5d",
+      "id": "11f995c0-46ea-48a8-8d1b-33b0bd530c5d",
       "nama_koperasi": "Mante, Reinger and Dare",
       "avatar": "https://robohash.org/facilisminimarecusandae.png?size=250x250&set=set1",
       "bentuk_koperasi": "skunder",
@@ -470,14 +442,13 @@
       "koperasi_kecamatan": "Garum",
       "koperasi_kabupaten": "Kab. Blitar",
       "lat_lang_koperasi": 22.1693843,
-      "status_koperasi": "tidak aktif",
+      "status_koperasi": "aktif",
       "kesehatan_koperasi": "cukup sehat",
       "pelaporan": "pending",
       "koperasi_created_at": "1621010415000"
     },
     {
-      "id": 12,
-      "koperasi_id": "7094368b-92e4-430e-87e7-ba62223d6ce3",
+      "id": "7094368b-92e4-430e-87e7-ba62223d6ce3",
       "nama_koperasi": "Mills-Roob",
       "avatar": "https://robohash.org/avoluptatesdistinctio.png?size=250x250&set=set1",
       "bentuk_koperasi": "skunder",
@@ -499,8 +470,7 @@
       "koperasi_created_at": "1627418399000"
     },
     {
-      "id": 13,
-      "koperasi_id": "aa570252-f236-428a-a0f0-04efc34b091d",
+      "id": "aa570252-f236-428a-a0f0-04efc34b091d",
       "nama_koperasi": "Mitchell Group",
       "avatar": "https://robohash.org/voluptatesquiomnis.png?size=250x250&set=set1",
       "bentuk_koperasi": "primer",
@@ -517,7 +487,7 @@
       "koperasi_kabupaten": "Kab. Blitar",
       "lat_lang_koperasi": 21.6481861,
       "status_koperasi": "tidak aktif",
-      "kesehatan_koperasi": "dalam pengawasan khusus",
+      "kesehatan_koperasi": "sangat tidak sehat",
       "pelaporan": "failed",
       "koperasi_created_at": "1632276346000"
     }
@@ -1982,6 +1952,138 @@
           "note" : "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
         }
       }
+    }
+  ],
+  "jenis_koperasi" : [
+    {
+      "name" : "Simpan Pinjam Syariah",
+      "value" : 1.345
+    },{
+      "name" : "Simpan Pinjam",
+      "value" : 345
+    },{
+      "name" : "Produksi",
+      "value" : 11.345
+    },{
+      "name" : "Pemasaran",
+      "value" : 191
+    },{
+      "name" : "Konsumen",
+      "value" : 987
+    },{
+      "name" : "Jasa",
+      "value" : 8.876
+    }
+  ],
+  "sektor_usaha" : [
+    {
+      "name" : "Transportasi & Pergudangan",
+      "value" : 24.091,
+      "icon" : null
+    },{
+      "name" : "Pertanian, Kehutanan & Perikanan",
+      "value" : 24.091,
+      "icon" : null
+    },{
+      "name" : "Pertambangan & Penggalian",
+      "value" : 24.091,
+      "icon" : null
+    },{
+      "name" : "Persewaan & Rental Kendaraan",
+      "value" : 24.091,
+      "icon" : null
+    },{
+      "name" : "Perdagangan Besar & Eceran",
+      "value" : 24.091,
+      "icon" : null
+    },{
+      "name" : "Perdagangan",
+      "value" : 24.091,
+      "icon" : null
+    },{
+      "name" : "Penyediaan Akomodasi",
+      "value" : 24.091,
+      "icon" : null
+    },{
+      "name" : "Pengangkutan",
+      "value" : 24.091,
+      "icon" : null
+    },{
+      "name" : "Pengadaan Listrik & Gas",
+      "value" : 24.091,
+      "icon" : null
+    },{
+      "name" : "Jasa Lainnya",
+      "value" : 24.091,
+      "icon" : null
+    },{
+      "name" : "Jasa Keuangan & Asuransi",
+      "value" : 24.091,
+      "icon" : null
+    },{
+      "name" : "Informasi & Komunikasi",
+      "value" : 24.091,
+      "icon" : null
+    },{
+      "name" : "Jasa Lainnya",
+      "value" : 24.091,
+      "icon" : null
+    },{
+      "name" : "Jasa Keuangan & Asuransi",
+      "value" : 24.091,
+      "icon" : null
+    },{
+      "name" : "Informasi & Komunikasi",
+      "value" : 24.091,
+      "icon" : null
+    },{
+      "name" : "Jasa Lainnya",
+      "value" : 24.091,
+      "icon" : null
+    },{
+      "name" : "Jasa Keuangan & Asuransi",
+      "value" : 24.091,
+      "icon" : null
+    },{
+      "name" : "Informasi & Komunikasi",
+      "value" : 24.091,
+      "icon" : null
+    }
+  ],
+  "ranking" : [
+    {
+      "name" : "nama koperasi panjang",
+      "score" : 10
+    },{
+      "name" : "nama koperasi panjang",
+      "score" : 9
+    },{
+      "name" : "nama koperasi panjang",
+      "score" : 8.9
+    },{
+      "name" : "nama koperasi panjang",
+      "score" : 8.5
+    },{
+      "name" : "nama koperasi panjang",
+      "score" : 8.1
+    },{
+      "name" : "nama koperasi panjang",
+      "score" : 8.1
+    },{
+      "name" : "nama koperasi panjang",
+      "score" : 8
+    },{
+      "name" : "nama koperasi panjang",
+      "score" : 7.5
+    },{
+      "name" : "nama koperasi panjang",
+      "score" : 7.2
+    },{
+      "name" : "nama koperasi panjang",
+      "score" : 7
+    },{
+      "name" : "nama koperasi panjang",
+      "score" : 6.9
     }
   ]
 }
