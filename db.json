@@ -3,19 +3,35 @@
   "users": [
     {
       "id": 2,
-      "first_name": "Lucy",
-      "last_name": "Ballmer",
+      "avatar": "https://robohash.org/exautemquisquam.png?size=150x150&set=set1",
+      "nama": "Lucy Ballmer yups",
+      "nik_pegawai": 2995615123,
+      "jabatan": "Research and Development",
+      "no_telp": "+1 485 743 3757",
+      "jenis_kelamin": "F",
       "email": "admin@gmail.com",
-      "passowrd": "admin",
-      "role": 0
+      "id_petugas": "dd09c7e2-6fea-4189-90b0-84831b22c70e",
+      "username": "lucyBallmer"
     },
     {
       "id": 3,
       "first_name": "Anna",
       "last_name": "Smith",
+      "username": "annaSmith",
       "email": "user@gmail.com",
+      "id_pegawai": 2,
       "passowrd": "user",
-      "role": 1
+      "role": 1,
+      "avatar": "https://robohash.org/exautemquisquam.png?size=150x150&set=set1",
+      "nama": "Gale Acklands update",
+      "nik_pegawai": 2995615123,
+      "jabatan": "Research and Development",
+      "no_telp": "+1 485 743 3757",
+      "jenis_kelamin": "F",
+      "id_petugas": "dd09c7e2-6fea-4189-90b0-84831b22c70e",
+      "nama_koperasi": "Swift Group",
+      "status_login": true,
+      "created_at": "1617212238000"
     },
     {
       "id": 4,
@@ -42,142 +58,158 @@
       "role": 1
     }
   ],
-  "news": [{
-    "id": "728448a8-b8ec-49db-8ecc-20a399a76737",
-    "judul_berita": "The Love Letter",
-    "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
-    "tumb_big": "http://dummyimage.com/972x720.png/5fa2dd/ffffff",
-    "tumb_small": "http://dummyimage.com/300x300.png/ff4444/ffffff",
-    "atachment": null,
-    "label": "umum",
-    "created_at": "20-Jan-2021"
-  }, {
-    "id": "1c4cfd0e-72fd-4165-a739-bf955a2c5c09",
-    "judul_berita": "Perfume: The Story of a Murderer",
-    "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
-    "tumb_big": "http://dummyimage.com/972x720.png/cc0000/ffffff",
-    "tumb_small": "http://dummyimage.com/300x300.png/dddddd/000000",
-    "atachment": null,
-    "label": "penting",
-    "created_at": "16-Sep-2021"
-  }, {
-    "id": "1fbd9aca-e451-4ba5-a576-3d6a8bccefd0",
-    "judul_berita": "My Flesh My Blood (Moja krew)",
-    "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
-    "tumb_big": "http://dummyimage.com/972x720.png/dddddd/000000",
-    "tumb_small": "http://dummyimage.com/300x300.png/cc0000/ffffff",
-    "atachment": 2,
-    "label": "pengumuman",
-    "created_at": "01-Dec-2021"
-  }, {
-    "id": "2617b227-8101-418f-bea0-668bc978e13a",
-    "judul_berita": "Born on the Fourth of July",
-    "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
-    "tumb_big": "http://dummyimage.com/972x720.png/dddddd/000000",
-    "tumb_small": "http://dummyimage.com/300x300.png/ff4444/ffffff",
-    "atachment": 3,
-    "label": "pengumuman",
-    "created_at": "13-May-2021"
-  }, {
-    "id": "f0ef147a-dc91-4635-8c2d-ee42c42ca90a",
-    "judul_berita": "Divorce American Style",
-    "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
-    "tumb_big": "http://dummyimage.com/972x720.png/ff4444/ffffff",
-    "tumb_small": "http://dummyimage.com/300x300.png/5fa2dd/ffffff",
-    "atachment": 2,
-    "label": "penting",
-    "created_at": "24-Jun-2021"
-  }, {
-    "id": "35f86d9d-44b6-4de4-a87d-1b6ef677d644",
-    "judul_berita": "Lay the Favorite",
-    "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
-    "tumb_big": "http://dummyimage.com/972x720.png/cc0000/ffffff",
-    "tumb_small": "http://dummyimage.com/300x300.png/cc0000/ffffff",
-    "atachment": 4,
-    "label": "penting",
-    "created_at": "19-Jan-2022"
-  }, {
-    "id": "cec727ff-5150-43a1-b50e-0bf4e95b6a1f",
-    "judul_berita": "World's Greatest Lover, The",
-    "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
-    "tumb_big": "http://dummyimage.com/972x720.png/cc0000/ffffff",
-    "tumb_small": "http://dummyimage.com/300x300.png/ff4444/ffffff",
-    "atachment": null,
-    "label": "umum",
-    "created_at": "11-Feb-2022"
-  }, {
-    "id": "40f485bf-a7dc-4bad-9912-b3181352ccec",
-    "judul_berita": "Grapes of Death, The (Raisins de la mort, Les)",
-    "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
-    "tumb_big": "http://dummyimage.com/972x720.png/5fa2dd/ffffff",
-    "tumb_small": "http://dummyimage.com/300x300.png/5fa2dd/ffffff",
-    "atachment": null,
-    "label": "penting",
-    "created_at": "07-Jul-2021"
-  }, {
-    "id": "3005e018-d19e-4f33-86c1-32da79e03695",
-    "judul_berita": "Herbie: Fully Loaded",
-    "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
-    "tumb_big": "http://dummyimage.com/972x720.png/5fa2dd/ffffff",
-    "tumb_small": "http://dummyimage.com/300x300.png/dddddd/000000",
-    "atachment": null,
-    "label": "umum",
-    "created_at": "08-Feb-2022"
-  }, {
-    "id": "af9be750-ac0a-43bf-8bb4-c58b0b90586b",
-    "judul_berita": "Swindle, The (Bidone, Il)",
-    "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
-    "tumb_big": "http://dummyimage.com/972x720.png/ff4444/ffffff",
-    "tumb_small": "http://dummyimage.com/300x300.png/5fa2dd/ffffff",
-    "atachment": null,
-    "label": "pengumuman",
-    "created_at": "28-Aug-2021"
-  }, {
-    "id": "cad1d2e0-a197-4333-9287-4119986753e1",
-    "judul_berita": "Blind Husbands",
-    "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
-    "tumb_big": "http://dummyimage.com/972x720.png/ff4444/ffffff",
-    "tumb_small": "http://dummyimage.com/300x300.png/cc0000/ffffff",
-    "atachment": null,
-    "label": "pengumuman",
-    "created_at": "03-Apr-2021"
-  }, {
-    "id": "954da606-c6ed-4cd3-bfa9-8c7ad88b40f9",
-    "judul_berita": "Dark of the Sun",
-    "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
-    "tumb_big": "http://dummyimage.com/972x720.png/cc0000/ffffff",
-    "tumb_small": "http://dummyimage.com/300x300.png/dddddd/000000",
-    "atachment": null,
-    "label": "penting",
-    "created_at": "14-Jul-2021"
-  }, {
-    "id": "fa0b3fbb-27ac-4337-b66e-215af7787e2d",
-    "judul_berita": "Chad Hanna",
-    "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
-    "tumb_big": "http://dummyimage.com/972x720.png/5fa2dd/ffffff",
-    "tumb_small": "http://dummyimage.com/300x300.png/5fa2dd/ffffff",
-    "atachment": null,
-    "label": "penting",
-    "created_at": "30-Apr-2021"
-  }, {
-    "id": "c24d1472-e61c-4d33-a419-3f4052f894d7",
-    "judul_berita": "Apostle Peter and The Last Supper",
-    "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
-    "tumb_big": "http://dummyimage.com/972x720.png/5fa2dd/ffffff",
-    "tumb_small": "http://dummyimage.com/300x300.png/dddddd/000000",
-    "atachment": 4,
-    "label": "penting",
-    "created_at": "18-Jul-2021"
-  }, {
-    "id": "57715e6d-4506-4356-b37a-315b1f61d5eb",
-    "judul_berita": "Jane Eyre",
-    "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
-    "tumb_big": "http://dummyimage.com/972x720.png/5fa2dd/ffffff",
-    "tumb_small": "http://dummyimage.com/300x300.png/cc0000/ffffff",
-    "atachment": null,
-    "label": "penting",
-    "created_at": "11-Nov-2021"
-  }],
+  "news": [
+    {
+      "id": "728448a8-b8ec-49db-8ecc-20a399a76737",
+      "judul_berita": "The Love Letter",
+      "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+      "tumb_big": "http://dummyimage.com/972x720.png/5fa2dd/ffffff",
+      "tumb_small": "http://dummyimage.com/300x300.png/ff4444/ffffff",
+      "atachment": null,
+      "label": "umum",
+      "created_at": "20-Jan-2021"
+    },
+    {
+      "id": "1c4cfd0e-72fd-4165-a739-bf955a2c5c09",
+      "judul_berita": "Perfume: The Story of a Murderer",
+      "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+      "tumb_big": "http://dummyimage.com/972x720.png/cc0000/ffffff",
+      "tumb_small": "http://dummyimage.com/300x300.png/dddddd/000000",
+      "atachment": null,
+      "label": "penting",
+      "created_at": "16-Sep-2021"
+    },
+    {
+      "id": "1fbd9aca-e451-4ba5-a576-3d6a8bccefd0",
+      "judul_berita": "My Flesh My Blood (Moja krew)",
+      "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+      "tumb_big": "http://dummyimage.com/972x720.png/dddddd/000000",
+      "tumb_small": "http://dummyimage.com/300x300.png/cc0000/ffffff",
+      "atachment": 2,
+      "label": "pengumuman",
+      "created_at": "01-Dec-2021"
+    },
+    {
+      "id": "2617b227-8101-418f-bea0-668bc978e13a",
+      "judul_berita": "Born on the Fourth of July",
+      "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+      "tumb_big": "http://dummyimage.com/972x720.png/dddddd/000000",
+      "tumb_small": "http://dummyimage.com/300x300.png/ff4444/ffffff",
+      "atachment": 3,
+      "label": "pengumuman",
+      "created_at": "13-May-2021"
+    },
+    {
+      "id": "f0ef147a-dc91-4635-8c2d-ee42c42ca90a",
+      "judul_berita": "Divorce American Style",
+      "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+      "tumb_big": "http://dummyimage.com/972x720.png/ff4444/ffffff",
+      "tumb_small": "http://dummyimage.com/300x300.png/5fa2dd/ffffff",
+      "atachment": 2,
+      "label": "penting",
+      "created_at": "24-Jun-2021"
+    },
+    {
+      "id": "35f86d9d-44b6-4de4-a87d-1b6ef677d644",
+      "judul_berita": "Lay the Favorite",
+      "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+      "tumb_big": "http://dummyimage.com/972x720.png/cc0000/ffffff",
+      "tumb_small": "http://dummyimage.com/300x300.png/cc0000/ffffff",
+      "atachment": 4,
+      "label": "penting",
+      "created_at": "19-Jan-2022"
+    },
+    {
+      "id": "cec727ff-5150-43a1-b50e-0bf4e95b6a1f",
+      "judul_berita": "World's Greatest Lover, The",
+      "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+      "tumb_big": "http://dummyimage.com/972x720.png/cc0000/ffffff",
+      "tumb_small": "http://dummyimage.com/300x300.png/ff4444/ffffff",
+      "atachment": null,
+      "label": "umum",
+      "created_at": "11-Feb-2022"
+    },
+    {
+      "id": "40f485bf-a7dc-4bad-9912-b3181352ccec",
+      "judul_berita": "Grapes of Death, The (Raisins de la mort, Les)",
+      "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+      "tumb_big": "http://dummyimage.com/972x720.png/5fa2dd/ffffff",
+      "tumb_small": "http://dummyimage.com/300x300.png/5fa2dd/ffffff",
+      "atachment": null,
+      "label": "penting",
+      "created_at": "07-Jul-2021"
+    },
+    {
+      "id": "3005e018-d19e-4f33-86c1-32da79e03695",
+      "judul_berita": "Herbie: Fully Loaded",
+      "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+      "tumb_big": "http://dummyimage.com/972x720.png/5fa2dd/ffffff",
+      "tumb_small": "http://dummyimage.com/300x300.png/dddddd/000000",
+      "atachment": null,
+      "label": "umum",
+      "created_at": "08-Feb-2022"
+    },
+    {
+      "id": "af9be750-ac0a-43bf-8bb4-c58b0b90586b",
+      "judul_berita": "Swindle, The (Bidone, Il)",
+      "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+      "tumb_big": "http://dummyimage.com/972x720.png/ff4444/ffffff",
+      "tumb_small": "http://dummyimage.com/300x300.png/5fa2dd/ffffff",
+      "atachment": null,
+      "label": "pengumuman",
+      "created_at": "28-Aug-2021"
+    },
+    {
+      "id": "cad1d2e0-a197-4333-9287-4119986753e1",
+      "judul_berita": "Blind Husbands",
+      "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+      "tumb_big": "http://dummyimage.com/972x720.png/ff4444/ffffff",
+      "tumb_small": "http://dummyimage.com/300x300.png/cc0000/ffffff",
+      "atachment": null,
+      "label": "pengumuman",
+      "created_at": "03-Apr-2021"
+    },
+    {
+      "id": "954da606-c6ed-4cd3-bfa9-8c7ad88b40f9",
+      "judul_berita": "Dark of the Sun",
+      "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+      "tumb_big": "http://dummyimage.com/972x720.png/cc0000/ffffff",
+      "tumb_small": "http://dummyimage.com/300x300.png/dddddd/000000",
+      "atachment": null,
+      "label": "penting",
+      "created_at": "14-Jul-2021"
+    },
+    {
+      "id": "fa0b3fbb-27ac-4337-b66e-215af7787e2d",
+      "judul_berita": "Chad Hanna",
+      "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+      "tumb_big": "http://dummyimage.com/972x720.png/5fa2dd/ffffff",
+      "tumb_small": "http://dummyimage.com/300x300.png/5fa2dd/ffffff",
+      "atachment": null,
+      "label": "penting",
+      "created_at": "30-Apr-2021"
+    },
+    {
+      "id": "c24d1472-e61c-4d33-a419-3f4052f894d7",
+      "judul_berita": "Apostle Peter and The Last Supper",
+      "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+      "tumb_big": "http://dummyimage.com/972x720.png/5fa2dd/ffffff",
+      "tumb_small": "http://dummyimage.com/300x300.png/dddddd/000000",
+      "atachment": 4,
+      "label": "penting",
+      "created_at": "18-Jul-2021"
+    },
+    {
+      "id": "57715e6d-4506-4356-b37a-315b1f61d5eb",
+      "judul_berita": "Jane Eyre",
+      "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+      "tumb_big": "http://dummyimage.com/972x720.png/5fa2dd/ffffff",
+      "tumb_small": "http://dummyimage.com/300x300.png/cc0000/ffffff",
+      "atachment": null,
+      "label": "penting",
+      "created_at": "11-Nov-2021"
+    }
+  ],
   "koperasi": [
     {
       "id": "2ecda49a-937a-4379-b583-188a41adccd4",
@@ -197,7 +229,10 @@
       "koperasi_rt": null,
       "koperasi_rw": null,
       "koperasi_alamat": null,
-      "lat_lang_koperasi": 124.8730516,
+      "coordinate": [
+        47.41322,
+        -1.219482
+      ],
       "Koperasi_alamat": "05460 Pennsylvania Drive",
       "koperasi_kabupaten": "Kab. Blitar",
       "status_koperasi": "tidak aktif",
@@ -221,7 +256,10 @@
       "Koperasi_alamat": "26413 Sutteridge Lane",
       "koperasi_kecamatan": "Binangun",
       "koperasi_kabupaten": "Kab. Blitar",
-      "lat_lang_koperasi": 125.9369952,
+      "coordinate": [
+        47.41322,
+        -1.229482
+      ],
       "status_koperasi": "aktif",
       "kesehatan_koperasi": "tidak sehat",
       "pelaporan": "done",
@@ -243,7 +281,10 @@
       "Koperasi_alamat": "05460 Pennsylvania Drive",
       "koperasi_kecamatan": "Selorejo",
       "koperasi_kabupaten": "Kab. Blitar",
-      "lat_lang_koperasi": 124.8730516,
+      "coordinate": [
+        47.41322,
+        -1.239482
+      ],
       "status_koperasi": "tidak aktif",
       "kesehatan_koperasi": "cukup sehat",
       "pelaporan": "failed",
@@ -265,7 +306,10 @@
       "Koperasi_alamat": "053 Fordem Lane",
       "koperasi_kecamatan": "Talun",
       "koperasi_kabupaten": "Kab. Blitar",
-      "lat_lang_koperasi": 43.2464427,
+      "coordinate": [
+        47.41322,
+        -1.249482
+      ],
       "status_koperasi": "aktif",
       "kesehatan_koperasi": "sehat",
       "pelaporan": "done",
@@ -287,7 +331,10 @@
       "Koperasi_alamat": "2 Eggendart Lane",
       "koperasi_kecamatan": "Kesamben",
       "koperasi_kabupaten": "Kab. Blitar",
-      "lat_lang_koperasi": 105.19602,
+      "coordinate": [
+        47.41322,
+        -1.259482
+      ],
       "status_koperasi": "aktif",
       "kesehatan_koperasi": "sehat",
       "pelaporan": "failed",
@@ -309,7 +356,10 @@
       "Koperasi_alamat": "53553 Rusk Point",
       "koperasi_kecamatan": "Wates",
       "koperasi_kabupaten": "Kab. Blitar",
-      "lat_lang_koperasi": -69.8489425,
+      "coordinate": [
+        47.41322,
+        -1.269482
+      ],
       "status_koperasi": "aktif",
       "kesehatan_koperasi": "cukup sehat",
       "pelaporan": "pending",
@@ -331,7 +381,10 @@
       "Koperasi_alamat": "1672 Charing Cross Park",
       "koperasi_kecamatan": "Ponggok",
       "koperasi_kabupaten": "Kab. Blitar",
-      "lat_lang_koperasi": 115.1592718,
+      "coordinate": [
+        47.41322,
+        -1.279482
+      ],
       "status_koperasi": "aktif",
       "kesehatan_koperasi": "tidak sehat",
       "pelaporan": "pending",
@@ -353,7 +406,10 @@
       "Koperasi_alamat": "42 Lerdahl Circle",
       "koperasi_kecamatan": "Kanigoro",
       "koperasi_kabupaten": "Kab. Blitar",
-      "lat_lang_koperasi": 26.6291023,
+      "coordinate": [
+        47.41322,
+        -1.289482
+      ],
       "status_koperasi": "aktif",
       "kesehatan_koperasi": "kurang sehat",
       "pelaporan": "failed",
@@ -375,7 +431,10 @@
       "Koperasi_alamat": "75 Daystar Circle",
       "koperasi_kecamatan": "Wonodadi",
       "koperasi_kabupaten": "Kab. Blitar",
-      "lat_lang_koperasi": 121.819,
+      "coordinate": [
+        47.41322,
+        -1.299482
+      ],
       "status_koperasi": "aktif",
       "kesehatan_koperasi": "cukup sehat",
       "pelaporan": "pending",
@@ -397,7 +456,10 @@
       "Koperasi_alamat": "4 3rd Trail",
       "koperasi_kecamatan": "Selopuro",
       "koperasi_kabupaten": "Kab. Blitar",
-      "lat_lang_koperasi": 174.0890941,
+      "coordinate": [
+        47.41322,
+        -1.309482
+      ],
       "status_koperasi": "aktif",
       "kesehatan_koperasi": "kurang sehat",
       "pelaporan": "failed",
@@ -419,7 +481,10 @@
       "Koperasi_alamat": "0 Sommers Lane",
       "koperasi_kecamatan": "Talun",
       "koperasi_kabupaten": "Kab. Blitar",
-      "lat_lang_koperasi": 127.563316,
+      "coordinate": [
+        47.41322,
+        -1.319482
+      ],
       "status_koperasi": "aktif",
       "kesehatan_koperasi": "cukup sehat",
       "pelaporan": "done",
@@ -441,7 +506,10 @@
       "Koperasi_alamat": "158 Bashford Pass",
       "koperasi_kecamatan": "Garum",
       "koperasi_kabupaten": "Kab. Blitar",
-      "lat_lang_koperasi": 22.1693843,
+      "coordinate": [
+        47.41322,
+        -1.329482
+      ],
       "status_koperasi": "aktif",
       "kesehatan_koperasi": "cukup sehat",
       "pelaporan": "pending",
@@ -463,7 +531,10 @@
       "Koperasi_alamat": "8 Fallview Plaza",
       "koperasi_kecamatan": "Wonotirto",
       "koperasi_kabupaten": "Kab. Blitar",
-      "lat_lang_koperasi": 21.9686719,
+      "coordinate": [
+        47.41322,
+        -1.339482
+      ],
       "status_koperasi": "tidak aktif",
       "kesehatan_koperasi": "cukup sehat",
       "pelaporan": "pending",
@@ -485,7 +556,10 @@
       "Koperasi_alamat": "350 Hoard Junction",
       "koperasi_kecamatan": "Wonotirto",
       "koperasi_kabupaten": "Kab. Blitar",
-      "lat_lang_koperasi": 21.6481861,
+      "coordinate": [
+        47.41322,
+        -1.349482
+      ],
       "status_koperasi": "tidak aktif",
       "kesehatan_koperasi": "sangat tidak sehat",
       "pelaporan": "failed",
@@ -748,7 +822,7 @@
       "email": "gacklands1@cbslocal.com",
       "id_petugas": "dd09c7e2-6fea-4189-90b0-84831b22c70e",
       "jenik_kelamin": null,
-      "username": "gacklands1",
+      "username": "lucyBallmer",
       "nama_koperasi": "Swift Group",
       "status_login": true,
       "created_at": "1617212238000"
@@ -1684,406 +1758,481 @@
       "komentar": "asdasdasd"
     }
   ],
-  "questions": [{
-    "id": "535c7364-f5ad-455c-af4f-43a2153e6113",
-    "quest": "Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis.",
-    "answer": "ya"
-  }, {
-    "id": "41a30ab9-f17f-466e-956e-45cb7c52ed49",
-    "quest": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",
-    "answer": "tidak"
-  }, {
-    "id": "b40c1c5d-e940-480f-b42c-e74b0fdbd46e",
-    "quest": "Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.",
-    "answer": "tidak"
-  }, {
-    "id": "f0382b0e-d8b0-4584-b534-6bb85842f58d",
-    "quest": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.",
-    "answer": "tidak"
-  }, {
-    "id": "82b392c2-55eb-44bc-8640-d8040835b034",
-    "quest": "Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.",
-    "answer": "ya"
-  }, {
-    "id": "5d611516-5125-4ec4-9a6d-4d9389d0329a",
-    "quest": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",
-    "answer": "ya"
-  }, {
-    "id": "16e75f92-a3da-4802-8b80-159812840ca2",
-    "quest": "Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.",
-    "answer": "ya"
-  }, {
-    "id": "c05e6201-6edc-4f40-98aa-f38dd90a2e7e",
-    "quest": "Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.",
-    "answer": "tidak"
-  }, {
-    "id": "96730502-dd8a-43e3-a2a0-12d5d30f3ab9",
-    "quest": "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
-    "answer": "ya"
-  }, {
-    "id": "e2b52216-4473-4872-b353-f98b1562b401",
-    "quest": "Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",
-    "answer": "ya"
-  }, {
-    "id": "8d61889d-5498-4645-b514-a4c69568fd84",
-    "quest": "Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
-    "answer": "ya"
-  }, {
-    "id": "5801a1dc-2ec5-4f6f-aa9f-42b410c60510",
-    "quest": "Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",
-    "answer": "tidak"
-  }, {
-    "id": "204bf571-9dca-433d-8c8b-ebac39ce6405",
-    "quest": "Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla.",
-    "answer": "tidak"
-  }, {
-    "id": "9eee8ff4-805c-4832-96dd-b9dd2a3941a5",
-    "quest": "Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.",
-    "answer": "ya"
-  }, {
-    "id": "252d1cc6-36de-407f-a1d2-fdb5ac601a01",
-    "quest": "Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
-    "answer": "ya"
-  }, {
-    "id": "55ad44d7-31a3-467b-ab13-f4b4d0e55b5b",
-    "quest": "Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.",
-    "answer": "ya"
-  }, {
-    "id": "8b526700-0256-4e27-9721-45de7096ba61",
-    "quest": "Pellentesque viverra pede ac diam.",
-    "answer": "ya"
-  }],
-  "penialaianMenu" : [
+  "questions": [
     {
-      "tahun" : 2021,
-      "data" : [
-        {
-          "name" : "Permodalan",
-          "status" : "cukup",
-          "value" : 14.40
-        },
-        {
-          "name" : "Kualitas Aktiva Produktif",
-          "status" : "cukup",
-          "value" : 24.00
-        },{
-          "name" : "Kualitas Aktiva Produktif",
-          "status" : "cukup",
-          "value" : 24.00
-        },{
-          "name" : "Efsiensi",
-          "status" : "kurang",
-          "value" : 3.0
-        },{
-          "name" : "Likuiditas",
-          "status" : "sangat kurang",
-          "value" : 1.9
-        },{
-          "name" : "Kemandirian dan Pertumbuhan",
-          "status" : "baik",
-          "value" : 5.50
-        },{
-          "name" : "Jatidiri Koperasi",
-          "status" : "cukup",
-          "value" : 10.00
-        }
-      ],
-      "statistik" : [1200, 200]
-      
+      "id": "535c7364-f5ad-455c-af4f-43a2153e6113",
+      "quest": "Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis.",
+      "answer": "ya"
     },
     {
-      "tahun" : 2020,
-      "data" : [
-        {
-          "name" : "Permodalan",
-          "status" : "sanagt kurang",
-          "value" : 1.40
-        },
-        {
-          "name" : "Kualitas Aktiva Produktif",
-          "status" : "cukup",
-          "value" : 20.70
-        },{
-          "name" : "Kualitas Aktiva Produktif",
-          "status" : "kurang",
-          "value" : 14.98
-        },{
-          "name" : "Efsiensi",
-          "status" : "kurang",
-          "value" : 3.0
-        },{
-          "name" : "Likuiditas",
-          "status" : "sangat kurang",
-          "value" : 1.9
-        },{
-          "name" : "Kemandirian dan Pertumbuhan",
-          "status" : "baik",
-          "value" : 5.50
-        },{
-          "name" : "Jatidiri Koperasi",
-          "status" : "cukup",
-          "value" : 10.00
-        }
-      ],
-      "statistik" : [600, 800]
+      "id": "41a30ab9-f17f-466e-956e-45cb7c52ed49",
+      "quest": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",
+      "answer": "tidak"
     },
     {
-      "tahun" : 2019,
-      "data" : [
+      "id": "b40c1c5d-e940-480f-b42c-e74b0fdbd46e",
+      "quest": "Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.",
+      "answer": "tidak"
+    },
+    {
+      "id": "f0382b0e-d8b0-4584-b534-6bb85842f58d",
+      "quest": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.",
+      "answer": "tidak"
+    },
+    {
+      "id": "82b392c2-55eb-44bc-8640-d8040835b034",
+      "quest": "Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.",
+      "answer": "ya"
+    },
+    {
+      "id": "5d611516-5125-4ec4-9a6d-4d9389d0329a",
+      "quest": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",
+      "answer": "ya"
+    },
+    {
+      "id": "16e75f92-a3da-4802-8b80-159812840ca2",
+      "quest": "Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.",
+      "answer": "ya"
+    },
+    {
+      "id": "c05e6201-6edc-4f40-98aa-f38dd90a2e7e",
+      "quest": "Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.",
+      "answer": "tidak"
+    },
+    {
+      "id": "96730502-dd8a-43e3-a2a0-12d5d30f3ab9",
+      "quest": "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
+      "answer": "ya"
+    },
+    {
+      "id": "e2b52216-4473-4872-b353-f98b1562b401",
+      "quest": "Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",
+      "answer": "ya"
+    },
+    {
+      "id": "8d61889d-5498-4645-b514-a4c69568fd84",
+      "quest": "Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
+      "answer": "ya"
+    },
+    {
+      "id": "5801a1dc-2ec5-4f6f-aa9f-42b410c60510",
+      "quest": "Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",
+      "answer": "tidak"
+    },
+    {
+      "id": "204bf571-9dca-433d-8c8b-ebac39ce6405",
+      "quest": "Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla.",
+      "answer": "tidak"
+    },
+    {
+      "id": "9eee8ff4-805c-4832-96dd-b9dd2a3941a5",
+      "quest": "Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.",
+      "answer": "ya"
+    },
+    {
+      "id": "252d1cc6-36de-407f-a1d2-fdb5ac601a01",
+      "quest": "Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+      "answer": "ya"
+    },
+    {
+      "id": "55ad44d7-31a3-467b-ab13-f4b4d0e55b5b",
+      "quest": "Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.",
+      "answer": "ya"
+    },
+    {
+      "id": "8b526700-0256-4e27-9721-45de7096ba61",
+      "quest": "Pellentesque viverra pede ac diam.",
+      "answer": "ya"
+    }
+  ],
+  "penialaianMenu": [
+    {
+      "tahun": 2021,
+      "data": [
         {
-          "name" : "Permodalan",
-          "status" : "cukup",
-          "value" : 10.99
+          "name": "Permodalan",
+          "status": "cukup",
+          "value": 14.4
         },
         {
-          "name" : "Kualitas Aktiva Produktif",
-          "status" : "sangat kurang",
-          "value" : 5.00
-        },{
-          "name" : "Kualitas Aktiva Produktif",
-          "status" : "cukup",
-          "value" : 24.00
-        },{
-          "name" : "Efsiensi",
-          "status" : "kurang",
-          "value" : 2.0
-        },{
-          "name" : "Likuiditas",
-          "status" : "sangat kurang",
-          "value" : 1.9
-        },{
-          "name" : "Kemandirian dan Pertumbuhan",
-          "status" : "baik",
-          "value" : 6.0
-        },{
-          "name" : "Jatidiri Koperasi",
-          "status" : "cukup",
-          "value" : 10.00
+          "name": "Kualitas Aktiva Produktif",
+          "status": "cukup",
+          "value": 24
+        },
+        {
+          "name": "Kualitas Aktiva Produktif",
+          "status": "cukup",
+          "value": 24
+        },
+        {
+          "name": "Efsiensi",
+          "status": "kurang",
+          "value": 3
+        },
+        {
+          "name": "Likuiditas",
+          "status": "sangat kurang",
+          "value": 1.9
+        },
+        {
+          "name": "Kemandirian dan Pertumbuhan",
+          "status": "baik",
+          "value": 5.5
+        },
+        {
+          "name": "Jatidiri Koperasi",
+          "status": "cukup",
+          "value": 10
         }
       ],
-      "statistik" : [900, 600]
+      "statistik": [
+        1200,
+        200
+      ]
+    },
+    {
+      "tahun": 2020,
+      "data": [
+        {
+          "name": "Permodalan",
+          "status": "sanagt kurang",
+          "value": 1.4
+        },
+        {
+          "name": "Kualitas Aktiva Produktif",
+          "status": "cukup",
+          "value": 20.7
+        },
+        {
+          "name": "Kualitas Aktiva Produktif",
+          "status": "kurang",
+          "value": 14.98
+        },
+        {
+          "name": "Efsiensi",
+          "status": "kurang",
+          "value": 3
+        },
+        {
+          "name": "Likuiditas",
+          "status": "sangat kurang",
+          "value": 1.9
+        },
+        {
+          "name": "Kemandirian dan Pertumbuhan",
+          "status": "baik",
+          "value": 5.5
+        },
+        {
+          "name": "Jatidiri Koperasi",
+          "status": "cukup",
+          "value": 10
+        }
+      ],
+      "statistik": [
+        600,
+        800
+      ]
+    },
+    {
+      "tahun": 2019,
+      "data": [
+        {
+          "name": "Permodalan",
+          "status": "cukup",
+          "value": 10.99
+        },
+        {
+          "name": "Kualitas Aktiva Produktif",
+          "status": "sangat kurang",
+          "value": 5
+        },
+        {
+          "name": "Kualitas Aktiva Produktif",
+          "status": "cukup",
+          "value": 24
+        },
+        {
+          "name": "Efsiensi",
+          "status": "kurang",
+          "value": 2
+        },
+        {
+          "name": "Likuiditas",
+          "status": "sangat kurang",
+          "value": 1.9
+        },
+        {
+          "name": "Kemandirian dan Pertumbuhan",
+          "status": "baik",
+          "value": 6
+        },
+        {
+          "name": "Jatidiri Koperasi",
+          "status": "cukup",
+          "value": 10
+        }
+      ],
+      "statistik": [
+        900,
+        600
+      ]
     }
   ],
-  "rat" : [
+  "rat": [
     {
-      "id" : 2312377681,
-      "tahun" : 2021,
-      "data" : {
-        "rat-dokumen-rapat" : {
-          "fileName" : "Dokumen RAT tahun 2021.pdf",
-          "fileSize" : "1.4Mb",
-          "downLink" : "?download=true&file=98098098089080",
-          "note" : "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+      "id": 2312377681,
+      "tahun": 2021,
+      "data": {
+        "rat-dokumen-rapat": {
+          "fileName": "Dokumen RAT tahun 2021.pdf",
+          "fileSize": "1.4Mb",
+          "downLink": "?download=true&file=98098098089080",
+          "note": "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
         },
-        "rat-pertanggung-jawaban" : {
-          "fileName" : "Dokumen Laporan Pertanggung Jawaban Tahun 2021.pdf",
-          "fileSize" : "5.7Mb",
-          "downLink" : "?download=true&file=98098098089080",
-          "note" : "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+        "rat-pertanggung-jawaban": {
+          "fileName": "Dokumen Laporan Pertanggung Jawaban Tahun 2021.pdf",
+          "fileSize": "5.7Mb",
+          "downLink": "?download=true&file=98098098089080",
+          "note": "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
         },
-        "rat-rencana-kerja" : {
-          "fileName" : "Dokumen Laporan Rencan Kerjaan Tahun 2021.pdf",
-          "fileSize" : "13.5Mb",
-          "downLink" : "?download=true&file=98098098089080",
-          "note" : "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+        "rat-rencana-kerja": {
+          "fileName": "Dokumen Laporan Rencan Kerjaan Tahun 2021.pdf",
+          "fileSize": "13.5Mb",
+          "downLink": "?download=true&file=98098098089080",
+          "note": "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
         },
-        "rat-pendukung" : {
-          "fileName" : "Dokumen PENDUKUNG RAT Tahun 2021.pdf",
-          "fileSize" : "14.1Mb",
-          "downLink" : "?download=true&file=98098098089080",
-          "note" : "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+        "rat-pendukung": {
+          "fileName": "Dokumen PENDUKUNG RAT Tahun 2021.pdf",
+          "fileSize": "14.1Mb",
+          "downLink": "?download=true&file=98098098089080",
+          "note": "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
         }
       }
-    },{
-      "id" : 465447,
-      "tahun" : 2020,
-      "data" : {
-        "rat-dokumen-rapat" : {
-          "fileName" : "Dokumen RAT tahun 2020.pdf",
-          "fileSize" : "4.4Mb",
-          "downLink" : "?download=true&file=98098098089080",
-          "note" : "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+    },
+    {
+      "id": 465447,
+      "tahun": 2020,
+      "data": {
+        "rat-dokumen-rapat": {
+          "fileName": "Dokumen RAT tahun 2020.pdf",
+          "fileSize": "4.4Mb",
+          "downLink": "?download=true&file=98098098089080",
+          "note": "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
         },
-        "rat-pertanggung-jawaban" : {
-          "fileName" : "Dokumen Laporan Pertanggung Jawaban Tahun 2020.pdf",
-          "fileSize" : "1.7Mb",
-          "downLink" : "?download=true&file=98098098089080",
-          "note" : "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+        "rat-pertanggung-jawaban": {
+          "fileName": "Dokumen Laporan Pertanggung Jawaban Tahun 2020.pdf",
+          "fileSize": "1.7Mb",
+          "downLink": "?download=true&file=98098098089080",
+          "note": "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
         },
-        "rat-rencana-kerja" : {
-          "fileName" : "Dokumen Laporan Rencan Kerjaan Tahun 2020.pdf",
-          "fileSize" : "8.5Mb",
-          "downLink" : "?download=true&file=98098098089080",
-          "note" : "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+        "rat-rencana-kerja": {
+          "fileName": "Dokumen Laporan Rencan Kerjaan Tahun 2020.pdf",
+          "fileSize": "8.5Mb",
+          "downLink": "?download=true&file=98098098089080",
+          "note": "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
         },
-        "rat-pendukung" : {
-          "fileName" : "Dokumen PENDUKUNG RAT Tahun 2020.pdf",
-          "fileSize" : "14.1Mb",
-          "downLink" : "?download=true&file=98098098089080",
-          "note" : "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+        "rat-pendukung": {
+          "fileName": "Dokumen PENDUKUNG RAT Tahun 2020.pdf",
+          "fileSize": "14.1Mb",
+          "downLink": "?download=true&file=98098098089080",
+          "note": "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
         }
       }
-    },{
-      "id" : 989080,
-      "tahun" : 2019,
-      "data" : {
-        "rat-dokumen-rapat" : {
-          "fileName" : "Dokumen RAT tahun 2019.pdf",
-          "fileSize" : "8.56Mb",
-          "downLink" : "?download=true&file=98098098089080",
-          "note" : "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+    },
+    {
+      "id": 989080,
+      "tahun": 2019,
+      "data": {
+        "rat-dokumen-rapat": {
+          "fileName": "Dokumen RAT tahun 2019.pdf",
+          "fileSize": "8.56Mb",
+          "downLink": "?download=true&file=98098098089080",
+          "note": "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
         },
-        "rat-pertanggung-jawaban" : {
-          "fileName" : "Dokumen Laporan Pertanggung Jawaban Tahun 2019.pdf",
-          "fileSize" : "1.8Mb",
-          "downLink" : "?download=true&file=98098098089080",
-          "note" : "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+        "rat-pertanggung-jawaban": {
+          "fileName": "Dokumen Laporan Pertanggung Jawaban Tahun 2019.pdf",
+          "fileSize": "1.8Mb",
+          "downLink": "?download=true&file=98098098089080",
+          "note": "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
         },
-        "rat-rencana-kerja" : {
-          "fileName" : "Dokumen Laporan Rencan Kerjaan Tahun 2019.pdf",
-          "fileSize" : "99.5Mb",
-          "downLink" : "?download=true&file=98098098089080",
-          "note" : "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+        "rat-rencana-kerja": {
+          "fileName": "Dokumen Laporan Rencan Kerjaan Tahun 2019.pdf",
+          "fileSize": "99.5Mb",
+          "downLink": "?download=true&file=98098098089080",
+          "note": "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
         },
-        "rat-pendukung" : {
-          "fileName" : "Dokumen PENDUKUNG RAT Tahun 2019.pdf",
-          "fileSize" : "140.1Mb",
-          "downLink" : "?download=true&file=98098098089080",
-          "note" : "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+        "rat-pendukung": {
+          "fileName": "Dokumen PENDUKUNG RAT Tahun 2019.pdf",
+          "fileSize": "140.1Mb",
+          "downLink": "?download=true&file=98098098089080",
+          "note": "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
         }
       }
     }
   ],
-  "jenis_koperasi" : [
+  "jenis_koperasi": [
     {
-      "name" : "Simpan Pinjam Syariah",
-      "value" : 1.345
-    },{
-      "name" : "Simpan Pinjam",
-      "value" : 345
-    },{
-      "name" : "Produksi",
-      "value" : 11.345
-    },{
-      "name" : "Pemasaran",
-      "value" : 191
-    },{
-      "name" : "Konsumen",
-      "value" : 987
-    },{
-      "name" : "Jasa",
-      "value" : 8.876
+      "name": "Simpan Pinjam Syariah",
+      "value": 1.345
+    },
+    {
+      "name": "Simpan Pinjam",
+      "value": 345
+    },
+    {
+      "name": "Produksi",
+      "value": 11.345
+    },
+    {
+      "name": "Pemasaran",
+      "value": 191
+    },
+    {
+      "name": "Konsumen",
+      "value": 987
+    },
+    {
+      "name": "Jasa",
+      "value": 8.876
     }
   ],
-  "sektor_usaha" : [
+  "sektor_usaha": [
     {
-      "name" : "Transportasi & Pergudangan",
-      "value" : 24.091,
-      "icon" : null
-    },{
-      "name" : "Pertanian, Kehutanan & Perikanan",
-      "value" : 24.091,
-      "icon" : null
-    },{
-      "name" : "Pertambangan & Penggalian",
-      "value" : 24.091,
-      "icon" : null
-    },{
-      "name" : "Persewaan & Rental Kendaraan",
-      "value" : 24.091,
-      "icon" : null
-    },{
-      "name" : "Perdagangan Besar & Eceran",
-      "value" : 24.091,
-      "icon" : null
-    },{
-      "name" : "Perdagangan",
-      "value" : 24.091,
-      "icon" : null
-    },{
-      "name" : "Penyediaan Akomodasi",
-      "value" : 24.091,
-      "icon" : null
-    },{
-      "name" : "Pengangkutan",
-      "value" : 24.091,
-      "icon" : null
-    },{
-      "name" : "Pengadaan Listrik & Gas",
-      "value" : 24.091,
-      "icon" : null
-    },{
-      "name" : "Jasa Lainnya",
-      "value" : 24.091,
-      "icon" : null
-    },{
-      "name" : "Jasa Keuangan & Asuransi",
-      "value" : 24.091,
-      "icon" : null
-    },{
-      "name" : "Informasi & Komunikasi",
-      "value" : 24.091,
-      "icon" : null
-    },{
-      "name" : "Jasa Lainnya",
-      "value" : 24.091,
-      "icon" : null
-    },{
-      "name" : "Jasa Keuangan & Asuransi",
-      "value" : 24.091,
-      "icon" : null
-    },{
-      "name" : "Informasi & Komunikasi",
-      "value" : 24.091,
-      "icon" : null
-    },{
-      "name" : "Jasa Lainnya",
-      "value" : 24.091,
-      "icon" : null
-    },{
-      "name" : "Jasa Keuangan & Asuransi",
-      "value" : 24.091,
-      "icon" : null
-    },{
-      "name" : "Informasi & Komunikasi",
-      "value" : 24.091,
-      "icon" : null
+      "name": "Transportasi & Pergudangan",
+      "value": 24.091,
+      "icon": null
+    },
+    {
+      "name": "Pertanian, Kehutanan & Perikanan",
+      "value": 24.091,
+      "icon": null
+    },
+    {
+      "name": "Pertambangan & Penggalian",
+      "value": 24.091,
+      "icon": null
+    },
+    {
+      "name": "Persewaan & Rental Kendaraan",
+      "value": 24.091,
+      "icon": null
+    },
+    {
+      "name": "Perdagangan Besar & Eceran",
+      "value": 24.091,
+      "icon": null
+    },
+    {
+      "name": "Perdagangan",
+      "value": 24.091,
+      "icon": null
+    },
+    {
+      "name": "Penyediaan Akomodasi",
+      "value": 24.091,
+      "icon": null
+    },
+    {
+      "name": "Pengangkutan",
+      "value": 24.091,
+      "icon": null
+    },
+    {
+      "name": "Pengadaan Listrik & Gas",
+      "value": 24.091,
+      "icon": null
+    },
+    {
+      "name": "Jasa Lainnya",
+      "value": 24.091,
+      "icon": null
+    },
+    {
+      "name": "Jasa Keuangan & Asuransi",
+      "value": 24.091,
+      "icon": null
+    },
+    {
+      "name": "Informasi & Komunikasi",
+      "value": 24.091,
+      "icon": null
+    },
+    {
+      "name": "Jasa Lainnya",
+      "value": 24.091,
+      "icon": null
+    },
+    {
+      "name": "Jasa Keuangan & Asuransi",
+      "value": 24.091,
+      "icon": null
+    },
+    {
+      "name": "Informasi & Komunikasi",
+      "value": 24.091,
+      "icon": null
+    },
+    {
+      "name": "Jasa Lainnya",
+      "value": 24.091,
+      "icon": null
+    },
+    {
+      "name": "Jasa Keuangan & Asuransi",
+      "value": 24.091,
+      "icon": null
+    },
+    {
+      "name": "Informasi & Komunikasi",
+      "value": 24.091,
+      "icon": null
     }
   ],
-  "ranking" : [
+  "ranking": [
     {
-      "name" : "nama koperasi panjang",
-      "score" : 10
-    },{
-      "name" : "nama koperasi panjang",
-      "score" : 9
-    },{
-      "name" : "nama koperasi panjang",
-      "score" : 8.9
-    },{
-      "name" : "nama koperasi panjang",
-      "score" : 8.5
-    },{
-      "name" : "nama koperasi panjang",
-      "score" : 8.1
-    },{
-      "name" : "nama koperasi panjang",
-      "score" : 8.1
-    },{
-      "name" : "nama koperasi panjang",
-      "score" : 8
-    },{
-      "name" : "nama koperasi panjang",
-      "score" : 7.5
-    },{
-      "name" : "nama koperasi panjang",
-      "score" : 7.2
-    },{
-      "name" : "nama koperasi panjang",
-      "score" : 7
-    },{
-      "name" : "nama koperasi panjang",
-      "score" : 6.9
+      "name": "nama koperasi panjang",
+      "score": 10
+    },
+    {
+      "name": "nama koperasi panjang",
+      "score": 9
+    },
+    {
+      "name": "nama koperasi panjang",
+      "score": 8.9
+    },
+    {
+      "name": "nama koperasi panjang",
+      "score": 8.5
+    },
+    {
+      "name": "nama koperasi panjang",
+      "score": 8.1
+    },
+    {
+      "name": "nama koperasi panjang",
+      "score": 8.1
+    },
+    {
+      "name": "nama koperasi panjang",
+      "score": 8
+    },
+    {
+      "name": "nama koperasi panjang",
+      "score": 7.5
+    },
+    {
+      "name": "nama koperasi panjang",
+      "score": 7.2
+    },
+    {
+      "name": "nama koperasi panjang",
+      "score": 7
+    },
+    {
+      "name": "nama koperasi panjang",
+      "score": 6.9
     }
   ]
 }
